@@ -1,0 +1,1 @@
+VELOCIDAD_LINEAL = 0.2 #[m/s]

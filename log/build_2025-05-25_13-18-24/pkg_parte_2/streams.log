@@ -1,0 +1,46 @@
+[0.020s] Invoking command in '/home/maxipis/lab2_ws/build/pkg_parte_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maxipis/lab2_ws/src/pkg_parte_2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maxipis/lab2_ws/install/pkg_parte_2
+[0.180s] -- The C compiler identification is GNU 11.4.0
+[0.469s] -- The CXX compiler identification is GNU 11.4.0
+[0.632s] -- Detecting C compiler ABI info
+[0.727s] -- Detecting C compiler ABI info - done
+[0.734s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.734s] -- Detecting C compile features
+[0.735s] -- Detecting C compile features - done
+[0.739s] -- Detecting CXX compiler ABI info
+[0.850s] -- Detecting CXX compiler ABI info - done
+[0.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.856s] -- Detecting CXX compile features
+[0.856s] -- Detecting CXX compile features - done
+[0.865s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.023s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.150s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.256s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.258s] -- Added test 'lint_cmake' to check CMake code style
+[1.260s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.262s] -- Added test 'xmllint' to check XML markup files
+[1.265s] -- Configuring done
+[1.270s] -- Generating done
+[1.271s] -- Build files have been written to: /home/maxipis/lab2_ws/build/pkg_parte_2
+[1.275s] Invoked command in '/home/maxipis/lab2_ws/build/pkg_parte_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maxipis/lab2_ws/src/pkg_parte_2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maxipis/lab2_ws/install/pkg_parte_2
+[1.278s] Invoking command in '/home/maxipis/lab2_ws/build/pkg_parte_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxipis/lab2_ws/build/pkg_parte_2 -- -j8 -l8
+[1.307s] Invoked command in '/home/maxipis/lab2_ws/build/pkg_parte_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxipis/lab2_ws/build/pkg_parte_2 -- -j8 -l8
+[1.318s] Invoking command in '/home/maxipis/lab2_ws/build/pkg_parte_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxipis/lab2_ws/build/pkg_parte_2
+[1.325s] -- Install configuration: ""
+[1.325s] -- Execute custom install script
+[1.326s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/ament_index/resource_index/package_run_dependencies/pkg_parte_2
+[1.337s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/ament_index/resource_index/parent_prefix_path/pkg_parte_2
+[1.343s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/environment/ament_prefix_path.sh
+[1.351s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/environment/ament_prefix_path.dsv
+[1.358s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/environment/path.sh
+[1.366s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/environment/path.dsv
+[1.373s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/local_setup.bash
+[1.381s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/local_setup.sh
+[1.388s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/local_setup.zsh
+[1.396s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/local_setup.dsv
+[1.405s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/package.dsv
+[1.412s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/ament_index/resource_index/packages/pkg_parte_2
+[1.421s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/cmake/pkg_parte_2Config.cmake
+[1.431s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/cmake/pkg_parte_2Config-version.cmake
+[1.439s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_2/share/pkg_parte_2/package.xml
+[1.448s] Invoked command in '/home/maxipis/lab2_ws/build/pkg_parte_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxipis/lab2_ws/build/pkg_parte_2

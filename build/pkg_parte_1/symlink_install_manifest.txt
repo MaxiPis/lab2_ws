@@ -1,0 +1,15 @@
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/ament_index/resource_index/package_run_dependencies/pkg_parte_1
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/ament_index/resource_index/parent_prefix_path/pkg_parte_1
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/environment/ament_prefix_path.sh
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/environment/ament_prefix_path.dsv
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/environment/path.sh
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/environment/path.dsv
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/local_setup.bash
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/local_setup.sh
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/local_setup.zsh
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/local_setup.dsv
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/package.dsv
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/ament_index/resource_index/packages/pkg_parte_1
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/cmake/pkg_parte_1Config.cmake
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/cmake/pkg_parte_1Config-version.cmake
+/home/maxipis/lab2_ws/install/pkg_parte_1/share/pkg_parte_1/package.xml

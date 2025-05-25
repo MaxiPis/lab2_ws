@@ -1,0 +1,6 @@
+Invoking command in '/home/maxipis/lab2_ws/build/pkg_parte_3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maxipis/lab2_ws/src/pkg_parte_3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maxipis/lab2_ws/install/pkg_parte_3
+Invoked command in '/home/maxipis/lab2_ws/build/pkg_parte_3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maxipis/lab2_ws/src/pkg_parte_3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maxipis/lab2_ws/install/pkg_parte_3
+Invoking command in '/home/maxipis/lab2_ws/build/pkg_parte_3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxipis/lab2_ws/build/pkg_parte_3 -- -j8 -l8
+Invoked command in '/home/maxipis/lab2_ws/build/pkg_parte_3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxipis/lab2_ws/build/pkg_parte_3 -- -j8 -l8
+Invoking command in '/home/maxipis/lab2_ws/build/pkg_parte_3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxipis/lab2_ws/build/pkg_parte_3
+Invoked command in '/home/maxipis/lab2_ws/build/pkg_parte_3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxipis/lab2_ws/build/pkg_parte_3
