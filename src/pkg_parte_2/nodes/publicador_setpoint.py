@@ -25,3 +25,13 @@ class SetpointPublisher(Node):
         msg.data = self.setpoint_wish
         self.setpoint_pub.publish(msg)
         self.get_logger().info(f'[SETPOINT] Publicando setpoint: {msg.data}')
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = SetpointPublisher()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+if __name__ == '__main__':
+    main()

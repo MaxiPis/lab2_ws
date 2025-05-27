@@ -4,7 +4,7 @@
   <name>pkg_parte_2</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="maxi.pi@uc.cl">maxipis</maintainer>
+  <maintainer email="jquimi@uc.cl">mikson16</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
