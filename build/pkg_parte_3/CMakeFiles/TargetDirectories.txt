@@ -1,9 +1,0 @@
-/home/maxipis/lab2_ws/build/pkg_parte_3/CMakeFiles/uninstall.dir
-/home/maxipis/lab2_ws/build/pkg_parte_3/CMakeFiles/pkg_parte_3_uninstall.dir
-/home/maxipis/lab2_ws/build/pkg_parte_3/CMakeFiles/test.dir
-/home/maxipis/lab2_ws/build/pkg_parte_3/CMakeFiles/edit_cache.dir
-/home/maxipis/lab2_ws/build/pkg_parte_3/CMakeFiles/rebuild_cache.dir
-/home/maxipis/lab2_ws/build/pkg_parte_3/CMakeFiles/list_install_components.dir
-/home/maxipis/lab2_ws/build/pkg_parte_3/CMakeFiles/install.dir
-/home/maxipis/lab2_ws/build/pkg_parte_3/CMakeFiles/install/local.dir
-/home/maxipis/lab2_ws/build/pkg_parte_3/CMakeFiles/install/strip.dir

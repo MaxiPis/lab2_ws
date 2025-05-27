@@ -1,1 +1,0 @@
-/home/maxipis/lab2_ws/build/pkg_parte_2/ament_cmake_core/pkg_parte_2Config-version.cmake
