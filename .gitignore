@@ -1,0 +1,6 @@
+#Ignore buld, install, and log directories
+build/
+install/
+log/
+
+.vscode/
