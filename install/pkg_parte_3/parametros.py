@@ -1,0 +1,1 @@
+/home/maxipis/lab2_ws/src/pkg_parte_3/nodes/parametros.py

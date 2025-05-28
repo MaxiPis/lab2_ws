@@ -1,0 +1,46 @@
+[0.031s] Invoking command in '/home/maxipis/lab2_ws/build/pkg_parte_3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxipis/lab2_ws/build/pkg_parte_3 -- -j8 -l8
+[0.107s] Built target ament_cmake_python_symlink_pkg_parte_3
+[0.436s] running egg_info
+[0.437s] writing pkg_parte_3.egg-info/PKG-INFO
+[0.437s] writing dependency_links to pkg_parte_3.egg-info/dependency_links.txt
+[0.438s] writing top-level names to pkg_parte_3.egg-info/top_level.txt
+[0.440s] reading manifest file 'pkg_parte_3.egg-info/SOURCES.txt'
+[0.440s] writing manifest file 'pkg_parte_3.egg-info/SOURCES.txt'
+[0.465s] Built target ament_cmake_python_build_pkg_parte_3_egg
+[0.475s] Invoked command in '/home/maxipis/lab2_ws/build/pkg_parte_3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxipis/lab2_ws/build/pkg_parte_3 -- -j8 -l8
+[0.477s] Invoking command in '/home/maxipis/lab2_ws/build/pkg_parte_3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxipis/lab2_ws/build/pkg_parte_3
+[0.482s] -- Install configuration: ""
+[0.483s] -- Execute custom install script
+[0.483s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/environment/pythonpath.sh
+[0.483s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/environment/pythonpath.dsv
+[0.483s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3-0.0.0-py3.10.egg-info/PKG-INFO
+[0.484s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.484s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.484s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3-0.0.0-py3.10.egg-info/top_level.txt
+[0.484s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3/__init__.py
+[0.484s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/path_line.txt
+[0.485s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/path_sin.txt
+[0.485s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/path_sqrt.txt
+[0.485s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/controlador_angular.py
+[0.485s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/follow_the_carrot.py
+[0.485s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/parametros.py
+[0.485s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/publicador_ruta.py
+[0.486s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/publicador_velocidad.py
+[0.486s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3//launch/follow_the_carrot.py
+[0.486s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/ament_index/resource_index/package_run_dependencies/pkg_parte_3
+[0.486s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/ament_index/resource_index/parent_prefix_path/pkg_parte_3
+[0.486s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/environment/ament_prefix_path.sh
+[0.486s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/environment/ament_prefix_path.dsv
+[0.486s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/environment/path.sh
+[0.486s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/environment/path.dsv
+[0.486s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/local_setup.bash
+[0.487s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/local_setup.sh
+[0.487s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/local_setup.zsh
+[0.487s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/local_setup.dsv
+[0.487s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/package.dsv
+[0.495s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/ament_index/resource_index/packages/pkg_parte_3
+[0.495s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/cmake/pkg_parte_3Config.cmake
+[0.495s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/cmake/pkg_parte_3Config-version.cmake
+[0.495s] -- Up-to-date symlink: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/package.xml
+[0.526s] Listing '/home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3'...
+[0.534s] Invoked command in '/home/maxipis/lab2_ws/build/pkg_parte_3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxipis/lab2_ws/build/pkg_parte_3

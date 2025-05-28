@@ -1,0 +1,1 @@
+/home/maxipis/lab2_ws/build/pkg_parte_3/ament_cmake_python/pkg_parte_3/pkg_parte_3.egg-info/SOURCES.txt

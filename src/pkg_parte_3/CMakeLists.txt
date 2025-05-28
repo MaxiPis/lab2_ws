@@ -11,6 +11,17 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+#InstallPythonmodules
+ament_python_install_package(${PROJECT_NAME})
+
+ #InstallPythonexecutables
+install(PROGRAMS nodes/mapas/path_line.txt nodes/mapas/path_sin.txt nodes/mapas/path_sqrt.txt nodes/controlador_angular.py 
+nodes/follow_the_carrot.py nodes/parametros.py nodes/publicador_ruta.py nodes/publicador_velocidad.py DESTINATION lib/${PROJECT_NAME})
+
+#Installlaunchfiles
+install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}/)
+
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

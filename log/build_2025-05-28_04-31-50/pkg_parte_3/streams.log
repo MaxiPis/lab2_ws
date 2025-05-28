@@ -1,0 +1,49 @@
+[0.025s] Invoking command in '/home/maxipis/lab2_ws/build/pkg_parte_3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxipis/lab2_ws/build/pkg_parte_3 -- -j8 -l8
+[0.073s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.237s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.344s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.432s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.432s] -- Added test 'lint_cmake' to check CMake code style
+[0.433s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.434s] -- Added test 'xmllint' to check XML markup files
+[0.436s] -- Configuring done
+[0.443s] -- Generating done
+[0.446s] -- Build files have been written to: /home/maxipis/lab2_ws/build/pkg_parte_3
+[0.478s] Built target ament_cmake_python_symlink_pkg_parte_3
+[0.705s] running egg_info
+[0.706s] creating pkg_parte_3.egg-info
+[0.707s] writing pkg_parte_3.egg-info/PKG-INFO
+[0.707s] writing dependency_links to pkg_parte_3.egg-info/dependency_links.txt
+[0.707s] writing top-level names to pkg_parte_3.egg-info/top_level.txt
+[0.707s] writing manifest file 'pkg_parte_3.egg-info/SOURCES.txt'
+[0.713s] reading manifest file 'pkg_parte_3.egg-info/SOURCES.txt'
+[0.713s] writing manifest file 'pkg_parte_3.egg-info/SOURCES.txt'
+[0.739s] Built target ament_cmake_python_build_pkg_parte_3_egg
+[0.749s] Invoked command in '/home/maxipis/lab2_ws/build/pkg_parte_3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxipis/lab2_ws/build/pkg_parte_3 -- -j8 -l8
+[0.750s] Invoking command in '/home/maxipis/lab2_ws/build/pkg_parte_3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxipis/lab2_ws/build/pkg_parte_3
+[0.757s] -- Install configuration: ""
+[0.757s] -- Execute custom install script
+[0.757s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/environment/pythonpath.sh
+[0.766s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3/environment/pythonpath.dsv
+[0.775s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3-0.0.0-py3.10.egg-info/PKG-INFO
+[0.782s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.790s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.800s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3-0.0.0-py3.10.egg-info/top_level.txt
+[0.808s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3/local/lib/python3.10/dist-packages/pkg_parte_3/__init__.py
+[0.817s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3//path_line.txt
+[0.824s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3//path_sin.txt
+[0.832s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3//path_sqrt.txt
+[0.839s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3//controlador_angular.py
+[0.847s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3//follow_the_carrot.py
+[0.854s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3//parametros.py
+[0.862s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3//publicador_ruta.py
+[0.869s] -- Symlinking: /home/maxipis/lab2_ws/install/pkg_parte_3//publicador_velocidad.py
+[0.876s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[0.876s]   ament_cmake_symlink_install_programs() can't find
+[0.876s]   '/home/maxipis/lab2_ws/src/pkg_parte_3/DESTINATIONlib/pkg_parte_3'
+[0.876s] Call Stack (most recent call first):
+[0.876s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_programs)
+[0.876s]   cmake_install.cmake:46 (include)
+[0.876s] 
+[0.876s] [0m
+[0.878s] Invoked command in '/home/maxipis/lab2_ws/build/pkg_parte_3' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxipis/lab2_ws/build/pkg_parte_3

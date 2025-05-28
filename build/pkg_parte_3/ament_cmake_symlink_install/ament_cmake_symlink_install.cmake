@@ -310,6 +310,24 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "/home/maxipis/lab2_ws/build/pkg_parte_3/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/pkg_parte_3/environment")
+ament_cmake_symlink_install_files("/home/maxipis/lab2_ws/src/pkg_parte_3" FILES "/home/maxipis/lab2_ws/build/pkg_parte_3/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/pkg_parte_3/environment")
+
+# install(FILES "/home/maxipis/lab2_ws/build/pkg_parte_3/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/pkg_parte_3/environment")
+ament_cmake_symlink_install_files("/home/maxipis/lab2_ws/src/pkg_parte_3" FILES "/home/maxipis/lab2_ws/build/pkg_parte_3/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/pkg_parte_3/environment")
+
+# install(DIRECTORY "/home/maxipis/lab2_ws/build/pkg_parte_3/ament_cmake_python/pkg_parte_3/pkg_parte_3.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/pkg_parte_3-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/maxipis/lab2_ws/src/pkg_parte_3" DIRECTORY "/home/maxipis/lab2_ws/build/pkg_parte_3/ament_cmake_python/pkg_parte_3/pkg_parte_3.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/pkg_parte_3-0.0.0-py3.10.egg-info")
+
+# install(DIRECTORY "/home/maxipis/lab2_ws/src/pkg_parte_3/pkg_parte_3/" "DESTINATION" "local/lib/python3.10/dist-packages/pkg_parte_3" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/maxipis/lab2_ws/src/pkg_parte_3" DIRECTORY "/home/maxipis/lab2_ws/src/pkg_parte_3/pkg_parte_3/" "DESTINATION" "local/lib/python3.10/dist-packages/pkg_parte_3" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install(PROGRAMS "nodes/mapas/path_line.txt" "nodes/mapas/path_sin.txt" "nodes/mapas/path_sqrt.txt" "nodes/controlador_angular.py" "nodes/follow_the_carrot.py" "nodes/parametros.py" "nodes/publicador_ruta.py" "nodes/publicador_velocidad.py" "DESTINATION" "lib/pkg_parte_3")
+ament_cmake_symlink_install_programs("/home/maxipis/lab2_ws/src/pkg_parte_3" PROGRAMS "nodes/mapas/path_line.txt" "nodes/mapas/path_sin.txt" "nodes/mapas/path_sqrt.txt" "nodes/controlador_angular.py" "nodes/follow_the_carrot.py" "nodes/parametros.py" "nodes/publicador_ruta.py" "nodes/publicador_velocidad.py" "DESTINATION" "lib/pkg_parte_3")
+
+# install(DIRECTORY "launch" "DESTINATION" "share/pkg_parte_3/")
+ament_cmake_symlink_install_directory("/home/maxipis/lab2_ws/src/pkg_parte_3" DIRECTORY "launch" "DESTINATION" "share/pkg_parte_3/")
+
 # install(FILES "/home/maxipis/lab2_ws/build/pkg_parte_3/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pkg_parte_3" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/maxipis/lab2_ws/src/pkg_parte_3" FILES "/home/maxipis/lab2_ws/build/pkg_parte_3/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pkg_parte_3" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
