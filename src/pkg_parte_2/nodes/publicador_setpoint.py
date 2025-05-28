@@ -2,7 +2,6 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64
-import numpy as np
 
 # La idea de este nodo es que inicialice el setpoint y por tanto el controlador_pasillo
 # Envía un mensaje a setpoint que será el deseo, en este caso, es que sea 0

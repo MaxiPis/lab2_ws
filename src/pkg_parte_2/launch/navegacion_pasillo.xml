@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="pkg_parte_2" exec="publicador_setpoint.py" name="publicador_setpoint" output="screen"/>
+    <node pkg="pkg_parte_2" exec="distancia_sensor.py" name="distance_sensor" output="screen"/>
+    <node pkg="pkg_parte_2" exec="controlador_pasillo.py" name="controlador_pasillo" output="screen"/>
+    <node pkg="pkg_parte_2" exec="publicador_vel.py" name="publicador_velocidad" output="screen"/>
+</launch>

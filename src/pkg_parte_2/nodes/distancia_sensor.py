@@ -3,7 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
-from geometry_msgs.msg import Float64
+from std_msgs.msg import Float64
 from cv_bridge import CvBridge
 import numpy as np
 
@@ -29,7 +29,7 @@ import numpy as np
 class DistanceSensor(Node):
     def __init__(self):
         super().__init__('distance_sensor')
-        self.get_logger().info('Distance Sensor Node has been started')
+        self.get_logger().info('El sensor de distancia ha sido iniciado')
         self.subscription = self.create_subscription(
             Image,
             '/camera/image_raw',
