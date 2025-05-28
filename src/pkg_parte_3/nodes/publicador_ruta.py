@@ -23,7 +23,7 @@ class PublicadorRuta(Node):
 
         dir_route = os.path.dirname(os.path.abspath(__file__)) #Consigue la ruta del directorio actual
         coordenadas_file_path = os.path.join(dir_route, RUTA_ARCHIVO)
-
+        #self.get_logger().info(f"{coordenadas_file_path}")
         with open(coordenadas_file_path, 'r') as archivo:
             for linea in archivo:
                 partes = linea.strip().split()

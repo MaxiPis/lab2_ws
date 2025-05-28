@@ -38,7 +38,7 @@ class MostrarRuta(Node):
         
         coordenadas_file_path = os.path.join(dir_route, RUTA_ARCHIVO)
         #! CAMBIAR
-        coordenadas_file_path = "mapas/path_line.txt"
+        coordenadas_file_path = "mapas/path_sin.txt"
         coords = []
         with open(coordenadas_file_path, 'r') as archivo:
             for linea in archivo:

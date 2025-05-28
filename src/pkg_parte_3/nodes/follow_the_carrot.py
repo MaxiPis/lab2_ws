@@ -91,7 +91,7 @@ class FollowTheCarrot(Node):
             x_obj, y_obj = self.queue_ruta.pop(0)
             self.zanahoria = self.colocar_zanahoria(x_robot, y_robot, x_obj, y_obj)
         
-        #self.get_logger().info(f"Nuestra zanahora {self.zanahoria} y esta a distancia {np.sqrt((x_robot-self.zanahoria[0])**2 + (y_robot-self.zanahoria[1])**2)}")
+        self.get_logger().info(f"Nuestra zanahora {self.zanahoria} y esta a distancia {np.sqrt((x_robot-self.zanahoria[0])**2 + (y_robot-self.zanahoria[1])**2)}")
         angulo_zanahoria = self.calcular_angulo_zanahoria(x_robot, y_robot, self.zanahoria[0], self.zanahoria[1])
 
         self.publicar_setpoint(angulo_robot, angulo_zanahoria)
