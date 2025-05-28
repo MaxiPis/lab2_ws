@@ -8,5 +8,7 @@
 # Siempre que exista un setpoint vamos a revisar la distnacia y actuará el PID
 # la respuesta sería en términos de velocidad angular y envía esto en el tópico
 
+#El topico de publicacion de la velocidad angular sera /control_effort
+
 
 
