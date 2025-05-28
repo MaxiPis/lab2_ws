@@ -16,8 +16,8 @@ class SetpointPublisher(Node):
         self.setpoint_wish = 0.0
 
         # Crear publicador para el setpoint
-        self.setpoint_pub = self.create_publisher(Float64, '/setpoint', 1)
-        self.timer = self.create_timer(0.2, self.publish_setpoint)
+        self.setpoint_pub = self.create_publisher(Float64, 'setpoint', 1)
+        self.timer = self.create_timer(10, self.publish_setpoint)
 
     def publish_setpoint(self):
         msg = Float64()

@@ -32,19 +32,26 @@ class DistanceSensor(Node):
         self.get_logger().info('El sensor de distancia ha sido iniciado')
         self.subscription = self.create_subscription(
             Image,
-            '/camera/image_raw',
+            '/camera/depth/image_raw',
             self.listener_callback,
             10)
-        self.publisher = self.create_publisher(Float64, '/dl_dr', 10)
+        self.publisher = self.create_publisher(Float64, 'dl_dr', 10)
         self.distance_msg = Float64()
 
         self.bridge = CvBridge()
         self.current_cv_depth_distance = None
 
+    def publish_distance(self):
+        """Publica la distancia calculada en el tópico /dl_dr."""
+        #self.get_logger().info('Publishing distance to /dl_dr')
+        #self.get_logger().info(f'Distance: {self.distance_msg.data}')
+        self.publisher.publish(self.distance_msg)
+
     def listener_callback(self, msg):
         """Esta funcion sera la callback para el topico que recibe desde el kinect, debe obtener la profundidad y calcular la diferencia de distancia entre las paredes izquierda y derecha."""
-        #self.get_logger().info('Received image from camera')
+        self.get_logger().info('Received image from camera')
         try:
+            ##self.get_logger().info(msg)
             self.current_cv_depth_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='passthrough') # Mantiene el tipo de datos original, en caso de que sea un tipo de imagen diferente
             if msg.encoding == '16UC1':
                 self.current_cv_depth_image = self.current_cv_depth_image.astype(np.float32) / 1000.0  # Convertir a metros, en caso de que venga en milimetros
@@ -62,17 +69,13 @@ class DistanceSensor(Node):
             right_mean_distance = np.nanmean(right_region)
 
             # Calcular la diferencia de distancia entre las paredes izquierda y derecha
-            self.distance_msg.data = right_mean_distance - left_mean_distance
+            self.distance_msg.data = float(right_mean_distance - left_mean_distance)
             #Si es negativo significa que estamos mas cerca de la pared izquierda, si es positivo estamos mas cerca de la pared derecha, si es 0, estamos en medio#
-            self.publish_distance(self.distance_msg)
+            self.publish_distance()
         except Exception as e:
             self.get_logger().error(f'Error al obtener profundidad u obtener los datos: {e}')
     
-    def publish_distance(self, msg):
-        """Publica la distancia calculada en el tópico /dl_dr."""
-        self.get_logger().info('Publishing distance to /dl_dr')
-        self.get_logger().info(f'Distance: {self.distance_msg.data}')
-        self.publisher.publish(self.distance_msg)
+
 
 def main(args=None):
     rclpy.init(args=args)

@@ -20,7 +20,7 @@ class VelocityPublisher(Node):
         # Subscribers
         self.angular_velocity_sub = self.create_subscription(
             Float64,
-            '/control_effort',
+            'control_effort',
             self.angular_velocity_callback,
             1
         )
