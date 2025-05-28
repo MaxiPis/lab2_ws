@@ -8,8 +8,8 @@ Kp = 5
 Ki = 0
 Kd = 0
 
-RUTA_ARCHIVO = "path_line.txt"
-#RUTA_ARCHIVO = "path_sin.txt"        
+#RUTA_ARCHIVO = "path_line.txt"
+RUTA_ARCHIVO = "path_sin.txt"        
 #RUTA_ARCHIVO = "path_sqrt.txt"
         
     
