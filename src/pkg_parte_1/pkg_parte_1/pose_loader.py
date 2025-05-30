@@ -5,6 +5,7 @@ from rclpy.node import Node
 from geometry_msgs.msg import Pose, PoseArray
 from tf_transformations import quaternion_from_euler
 import os
+from ament_index_python.packages import get_package_share_directory
 import numpy as np
 
 def convertir_formato_valido(lista):
@@ -18,11 +19,9 @@ def convertir_formato_valido(lista):
     return x, y, theta
 
 class PoseLoader(Node):
-
     def __init__(self):
         super().__init__('pose_loader')
         #Envio de lista de poses goal list
-
         self.publisher_ = self.create_publisher(PoseArray, 'goal_list', 10)
         #Tiempo de envio entre mensajes
         self.timer = self.create_timer(1.0, self.publish_goals)
@@ -41,16 +40,17 @@ class PoseLoader(Node):
                 
                 # Solucion: Anadir al CMakeList el archivo .txt desde nodes para que luego al hacer symlink (una vez)
                 # se genere en el instaa/lib. Si realizamos cambios al coordenadas.txt debe ser al de src/lab...
-                dir_route = os.path.dirname(os.path.abspath(__file__)) #Consigue la ruta del directorio actual
-                coordenadas_file_path = os.path.join(dir_route, 'coordenadas.txt') #Hace join del directorio actual con el nombre del archivo
+                
+                dir_route = get_package_share_directory('pkg_parte_1')
+                coordenadas_file_path = os.path.join(dir_route, 'coordenadas.txt')
                 with open(coordenadas_file_path, 'r') as file:
                     self.get_logger().info('2/3 Archivo leido')
                     for line in file:
                         # Convertimos en el formato correcto
                         line = line.replace(" ", "")
                         x, y, theta = convertir_formato_valido(line.strip().split(','))
-                        self.get_logger().info(f'{x}, {y}, {theta}')
-                        self.get_logger().info(f' ')
+                        #self.get_logger().info(f'{x}, {y}, {theta}')
+                        #self.get_logger().info(f' ')
                         # Instanciamos a la EDD
                         pose = Pose()
                         pose.position.x = x
@@ -70,14 +70,12 @@ class PoseLoader(Node):
                 self.contador_msg = 1
 
             except FileNotFoundError:
-
-                self.get_logger().error(f'Archivo no encontrado: {self.pose_file}')
+                self.get_logger().error(f'Archivo no encontrado: {coordenadas_file_path}')
             except Exception as e:
                 self.get_logger().error(f'Error al leer el archivo: {e}')
         else:
             pass
 def main(args=None):
-
     rclpy.init(args=args)
     node = PoseLoader()
     rclpy.spin(node)
