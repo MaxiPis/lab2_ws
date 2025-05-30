@@ -13,6 +13,7 @@
 /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/parametros.py
 /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/publicador_ruta.py
 /home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/publicador_velocidad.py
+/home/maxipis/lab2_ws/install/pkg_parte_3/lib/pkg_parte_3/mostrar_ruta.py
 /home/maxipis/lab2_ws/install/pkg_parte_3/share/pkg_parte_3//launch/follow_the_carrot.py
 /home/maxipis/lab2_ws/install/pkg_parte_3/share/ament_index/resource_index/package_run_dependencies/pkg_parte_3
 /home/maxipis/lab2_ws/install/pkg_parte_3/share/ament_index/resource_index/parent_prefix_path/pkg_parte_3

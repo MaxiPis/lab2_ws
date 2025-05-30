@@ -37,9 +37,14 @@ class MostrarRuta(Node):
         dir_route = os.path.dirname(os.path.abspath(__file__)) #Consigue la ruta del directorio actual
         
         coordenadas_file_path = os.path.join(dir_route, RUTA_ARCHIVO)
-        #! CAMBIAR
-        coordenadas_file_path = "mapas/path_sin.txt"
+        
+        #coordenadas_file_path = "mapas/path_sin.txt"
+        coordenadas_file_path = f"mapas/{RUTA_ARCHIVO}"
         coords = []
+
+        dir_route = os.path.dirname(os.path.abspath(__file__)) #Consigue la ruta del directorio actual
+        coordenadas_file_path = os.path.join(dir_route, RUTA_ARCHIVO)
+
         with open(coordenadas_file_path, 'r') as archivo:
             for linea in archivo:
                 partes = linea.strip().split()

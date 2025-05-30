@@ -35,12 +35,18 @@ def generate_launch_description():
             package='pkg_parte_3',
             executable='publicador_ruta.py',
             name='publicador_ruta')
+    
+    levantar_ventana = Node(
+        package='pkg_parte_3',
+            executable='mostrar_ruta.py',
+            name='mostrarr_ruta')
     # Retornamos el archivo de tipo launch
     launch = LaunchDescription([
         IncludeLaunchDescription(XMLLaunchDescriptionSource(simulacion_launch)),
         publicador_velocidad,
         controlador_angular,
         follow_the_carrot,
-        publicador_ruta
+        publicador_ruta,
+        levantar_ventana
         ])
     return launch
